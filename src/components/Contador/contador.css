@@ -1,9 +1,10 @@
 div{
+    background-color:rgb(64, 82, 100);
     text-align: center;
 }
 div h2{
     text-align: center;
     background-color: transparent;
-    border: 0 transparent;
+    color: aliceblue;
     font-size: 100px;
 }

@@ -4,7 +4,7 @@ import "./Titulo.css";
 
 export const Titulo = () => {
   return (
-    <div>
+    <div className="Body">
       <div class="p">
         <h1> Contador JS</h1>
       </div>

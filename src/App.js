@@ -27,14 +27,14 @@ export default App;
 
 import React from "react";
 import { Titulo } from "./components/Titulo";
-import { Contador } from "./components/Contador";
+
 import { Logico } from "./components/logico";
 
 export const App = () => {
   return (
     <div>
       <Titulo />
-      <Contador />
+      
       <Logico />
     </div>
   );

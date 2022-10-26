@@ -1,10 +1,10 @@
-import React from 'react'
-import "./contador.css"
+import React from "react";
+import "./contador.css";
 
-export const Contador = () => {
+export const Contador = ({ Contador }) => {
   return (
-    <div>
-      <h2 id='counter'>0</h2>
+    <div className= "Body">
+      <h2 id="counter">{Contador}</h2>
     </div>
-  )
-}
+  );
+};

@@ -1,15 +1,25 @@
-.p{
-    display: flex;
-    justify-content: center;
-    margin-top: 1050px;
-
-
+.Body {
+  background-color: rgb(64, 82, 100);
+}
+.p {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: sans-serif;
+  color: aliceblue;
 }
 .logo {
-    display: flex;
-    justify-content:center;
-    margin: 50px;
-    height: 450px;
-    margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 200px;
+}
 
+@media screen and (max-width: 700px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 200px;
+  }
 }
